@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+   
+}
+body{
+    
+}
+main, .infos, .quote, .signup{
+    padding: 0 120px;
+    
+}
+main{
+    background-color: #1F2937;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+header .logo{
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    gap: 20PX;
+
+}
+header a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.home{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.home .description{
+    max-width: 600px;
+}
+.home .description h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.home .description p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.home .img{
+    background-color:white;
+    color: black;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .description button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.infos{
+    text-align: center;
+    padding-bottom: 70px;
+}
+ul{
+   
+}
+.infos h2{
+    padding: 25px 0;
+}
+.infos ul{
+     list-style: none;
+     display: flex;
+     justify-content: space-around;
+}
+.infos .img{
+    height: 150px;
+    width: 120px;
+    border: 2PX SOLID #3882F6;
+    border-radius: 10px;
+}
+.infos li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 70px 100px;
+}
+.quote p{
+    font-style: italic;
+    color: #1F2937;
+    margin: 0 40px;
+    text-align: left;
+}
+.quote div{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    width: 90%;
+    text-align: right;
+}
+.signup{
+    background-color: #3882F6;
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px 40px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.signup div p{
+    font-size: 15px;
+}
+.signup button{
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
